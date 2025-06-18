@@ -38,6 +38,33 @@ Graphe de liaison du bras :
 
 ![Diagramme](https://github.com/user-attachments/assets/f8d4ba4f-41c6-4e63-aca8-76396eb42998)
 
+## Fichier
+
+Package : Principale
+
+  Main.java : fichier principal
+
+Package : Physique
+
+  ComposantBras.java : classe virtuelle dont sont issus tous les composants du bras
+
+  Bâti.java : classe contenant la programmation du bâti
+
+  Articulation.java : classe contenant la programmation du bras
+
+  Pince.java : classe contenant la programmation de la pince
+
+  Calcul.java : classe permettant les calculs nécessaires relatifs aux différents modes
+
+Package : Interface
+
+  Fenetre.java : classe contenant et gérant la fenêtre de l'application
+
+  FenInterface.java : classe gérant toute la partie interface de la fenêtre
+
+  FenSimulation.java : classe gérant toute la partie simulation de la fenêtre
+
+
 ## Articulation, Bâtie & Pince
 
 Chacun de ses composants est vu comme un objet issu de la classe virtuelle composantBras. La principale particularité de cette classe est la présence d'un prédécesseur. Ce prédécesseur est l'objet auquel le composant est rattaché. 
