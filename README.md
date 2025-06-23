@@ -26,7 +26,7 @@ Projet réalisé seul, sans aide extérieure. (personnes, I.A.).
 
 ## Changement dans le paramétrage des composants
 
-Les articulations, le bâti et la pince sont initialisés dans le fichier physique.
+Les articulations, le bâti et la pince sont initialisés dans le fichier physique. 
 
 Il est possible de modifier le paramétrage des articulations déjà présentes.
 
@@ -91,7 +91,9 @@ Elle est contrôlée via la vitesse de l'écartement.
 
 ## Calcul
 
-Calcul de la cinématique inverse : elle est calculée à l'aide d'une fermeture cinématique projetée sur l'axe x et y. Puis, par calcul, avec notamment la loi des cosinus. On obtient les expressions des angles à obtenir. (Rq : pour s'affranchir des limites de arctan, on utilise arctan2 qui est définie de R² dans [-π, π].)
+Calcul de la cinématique inverse : 
+Elle est calculée uniquement sur les 2 dernières articulations. Si la position souhaitée est impossible à atteindre, alors le bras se remet à l'horizontale.
 
+Méthode : 
 
-
+Elle est calculée à l'aide d'une fermeture cinématique projetée sur l'axe x et y. Puis, par calcul, avec notamment la loi des cosinus. On obtient les expressions des angles à obtenir. (Rq : pour s'affranchir des limites de arctan, on utilise arctan2 qui est définie de R² dans [-π, π].)
