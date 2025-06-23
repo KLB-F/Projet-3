@@ -8,7 +8,7 @@ import javax.swing.JSplitPane;
 import javax.swing.SwingUtilities;
 
 import Physique.Articulation;
-import Physique.Batie;
+import Physique.Bati;
 import Physique.Pince;
 
 public class Fenetre extends JFrame{
@@ -18,7 +18,7 @@ public class Fenetre extends JFrame{
 	
 	protected int nb_articulation;
 	
-	public Fenetre(Articulation[] liste_articulation, Pince pince, Batie batie) {
+	public Fenetre(Articulation[] liste_articulation, Pince pince, Bati batie) {
 		/*Paramètre: 
 		 * liste_articulation : la liste des articulations
 		 * pince : une pince

@@ -18,14 +18,14 @@ import javax.swing.SwingUtilities;
 import javax.swing.border.Border;
 
 import Physique.Articulation;
-import Physique.Batie;
+import Physique.Bati;
 import Physique.Pince;
 
 public class FenInterface extends JPanel{
 
 	protected Articulation[] l_articulation;
 	protected Pince pince;
-	protected Batie batie;
+	protected Bati bati;
 	
 	protected JButton butt_sel_mode;
 	protected String mode;
@@ -55,11 +55,11 @@ public class FenInterface extends JPanel{
   	protected JButton droite;
   	protected JButton gauche;
 	
-	public FenInterface(Articulation[] liste_articulation, Pince pince, Batie batie){
+	public FenInterface(Articulation[] liste_articulation, Pince pince, Bati bati){
 		//Assignation des variables liée aux composants du bras
 		this.l_articulation = liste_articulation;
 		this.pince = pince;
-		this.batie = batie;
+		this.bati = bati;
 		
 		//Initialisation
 		this.setLayout(new BorderLayout());

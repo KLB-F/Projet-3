@@ -4,12 +4,12 @@ public class Physique {
 
 	public Articulation[] l_articulation;
 	public Pince pince;
-	public Batie batie;
+	public Bati bati;
 	
 	public Physique() {
 		
-		this.batie = new Batie(150.f,600.f);
-		Articulation art_1 = new Articulation(this.batie, 350,  0.2f, (float)-Math.PI/2, new int[] {255, 255, 255}, -0.1f, -1.7f); 
+		this.bati = new Bati(150.f,600.f);
+		Articulation art_1 = new Articulation(this.bati, 350,  0.2f, (float)-Math.PI/2, new int[] {255, 255, 255}, -0.1f, -1.7f); 
 		Articulation art_2 = new Articulation(art_1, 200,  0.2f, 0.0f, new int[] {255, 0, 0}, 0.9f, -1.f); 
 		Articulation art_3 = new Articulation(art_2, 150,  0.2f, 0.0f, new int[] {0, 255, 0}, 1.6f, -1.5f); 
 		

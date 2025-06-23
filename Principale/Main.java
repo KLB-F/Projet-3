@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Physique physique = new Physique();
-		Fenetre fenetre = new Fenetre(physique.l_articulation, physique.pince, physique.batie);
+		Fenetre fenetre = new Fenetre(physique.l_articulation, physique.pince, physique.bati);
 		
 		float posXV = physique.l_articulation[2].donnePositionAttache()[0];
 		float posYV = physique.l_articulation[2].donnePositionAttache()[1];
@@ -36,8 +36,7 @@ public class Main {
 				}else{
 					posXV = posXV;posYV = posYV;
 				}
-				System.out.print("X : "); System.out.print(physique.l_articulation[0].donnePositionAttache()[0]); System.out.print(" Y : "); System.out.println(physique.l_articulation[0].donnePositionAttache()[1]);
-				System.out.print("X2 : "); System.out.print(posXV); System.out.print(" Y : "); System.out.println(posYV);
+				
 				float angle1 = physique.l_articulation[0].donnerAngle();float angle2 = physique.l_articulation[1].donnerAngle();float angle3 = physique.l_articulation[2].donnerAngle();
 				float longu1 = physique.l_articulation[0].donnerLongueur(); float longu2 = physique.l_articulation[1].donnerLongueur();float longu3 = physique.l_articulation[2].donnerLongueur();
 				float Angl[] = Calcul.cal_CinInverse((float)(30/1000), angle1,posXV-physique.l_articulation[0].donnePositionAttache()[0], posYV-physique.l_articulation[0].donnePositionAttache()[1], longu2+5, longu3+5);

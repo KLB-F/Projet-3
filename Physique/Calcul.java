@@ -26,9 +26,6 @@ public class Calcul {
 		float Theta2 = (float)Math.atan2(Math.sqrt(1-c2*c2), c2);
 		float Theta1 = (float)(Math.atan2(y, x)-Math.atan2(l2*Math.sqrt(1-c2*c2), l1+l2*c2));
 		
-		System.out.print("DX : "); System.out.print(x); System.out.print(" DY : "); System.out.println(y);
-		System.out.print(Theta1); System.out.print(" "); System.out.print(Theta2); System.out.println(" ");
-		
 		return new float[]{angle1, Theta1, Theta2};
 	}
 	

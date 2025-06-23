@@ -9,23 +9,23 @@ import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
 import Physique.Articulation;
-import Physique.Batie;
+import Physique.Bati;
 import Physique.Pince;
 
 public class FenSimulation extends JPanel{
 
 	Articulation[] l_articulation;
 	Pince pince;
-	Batie batie;
+	Bati bati;
 	
-	public FenSimulation(Articulation[] liste_articulation, Pince pince, Batie batie) {
+	public FenSimulation(Articulation[] liste_articulation, Pince pince, Bati bati) {
 		/*Paramètre: 
 		 * liste_articulation : la liste des articulations
 		 * pince : une pince
 		 * batie : le batie */
 		this.l_articulation = liste_articulation;
 		this.pince = pince;
-		this.batie = batie;
+		this.bati = bati;
 	}
 	
 	public void paintComponent(Graphics g) {
