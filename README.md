@@ -65,15 +65,15 @@ Package : Interface
   FenSimulation.java : classe gérant toute la partie simulation de la fenêtre
 
 
-## Articulation, Bâtie & Pince
+## Articulation, Bâti & Pince
 
 Chacun de ses composants est vu comme un objet issu de la classe virtuelle composantBras. La principale particularité de cette classe est la présence d'un prédécesseur. Ce prédécesseur est l'objet auquel le composant est rattaché. 
 
 Remarque : les composants n'ont pas de collision entre eux.
 
-Bâtie : 
+Bâti : 
 
-Le bâtie est la classe la plus simple. Elle sert juste de prédécesseur pour l'articulation suivante.
+Le bâti est la classe la plus simple. Elle sert juste de prédécesseur pour l'articulation suivante.
 
 Articulation :
 
