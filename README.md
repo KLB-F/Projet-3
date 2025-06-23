@@ -22,7 +22,7 @@ Projet réalisé seul, sans aide extérieure. (personnes, I.A.).
 
 - angle : contrôle des articulations via les angles voulus pour chaque articulation
 
-- direction : choix des directions que doit prendre la pince, calculé par cinématique inverse. [EN COURS]
+- direction : choix des directions que doit prendre la pince, calculé par cinématique inverse.
 
 ## Changement dans le paramétrage des composants
 
@@ -91,7 +91,7 @@ Elle est contrôlée via la vitesse de l'écartement.
 
 ## Calcul
 
-[EN COURS]
+Calcul de la cinématique inverse : elle est calculée à l'aide d'une fermeture cinématique projetée sur l'axe x et y. Puis, par calcul, avec notamment la loi des cosinus. On obtient les expressions des angles à obtenir. (Rq : pour s'affranchir des limites de arctan, on utilise arctan2 qui est définie de R² dans [-π, π].)
 
 
 
